@@ -39,16 +39,16 @@ Steps:
 
 	a. List buckets:
 		python aws_s3_cli.py
-			Viswaroops-MacBook-Pro:aws_s3_custom_tool vadlamudi$ python aws_s3_cli.py 
-			Bucket Name--------------------------------------Created on---------------------------------------Region
-			aws-logs-328427342299-us-east-1		====>>		2018-01-11 05:10:17+00:00		====>>		us-east-1
-			cf-templates-ckj5u60m36f9-us-east-1		====>>		2018-01-11 05:04:29+00:00		====>>		us-east-1
-			cf-templates-ckj5u60m36f9-us-west-2		====>>		2018-01-11 06:10:05+00:00		====>>		us-west-2
-			elasticbeanstalk-us-east-1-328427342299		====>>		2019-01-03 00:46:05+00:00		====>>		us-east-1
-			myawscloudtrailbucket20180111		====>>		2018-01-11 06:24:49+00:00		====>>		us-west-2
-			mycloudformationscript		====>>		2018-02-02 17:09:11+00:00		====>>		us-east-1
-			myemrbucket20180111		====>>		2018-01-11 06:12:00+00:00		====>>		us-west-2
-			viswatestemr		====>>		2018-01-11 05:06:42+00:00		====>>		us-east-1
+			Viswaroops-MacBook-Pro:aws_s3_custom_tool vadlamudi$ python aws_s3_cli.py \n 
+			Bucket Name--------------------------------------Created on---------------------------------------Region \n
+			aws-logs-328427342299-us-east-1		====>>		2018-01-11 05:10:17+00:00		====>>		us-east-1 \n
+			cf-templates-ckj5u60m36f9-us-east-1		====>>		2018-01-11 05:04:29+00:00		====>>		us-east-1 \n
+			cf-templates-ckj5u60m36f9-us-west-2		====>>		2018-01-11 06:10:05+00:00		====>>		us-west-2 \n
+			elasticbeanstalk-us-east-1-328427342299		====>>		2019-01-03 00:46:05+00:00		====>>		us-east-1 \n
+			myawscloudtrailbucket20180111		====>>		2018-01-11 06:24:49+00:00		====>>		us-west-2 \n
+			mycloudformationscript		====>>		2018-02-02 17:09:11+00:00		====>>		us-east-1 \n
+			myemrbucket20180111		====>>		2018-01-11 06:12:00+00:00		====>>		us-west-2 \n
+			viswatestemr		====>>		2018-01-11 05:06:42+00:00		====>>		us-east-1 \n
  
 	b. details of specific bucket:
 		python aws_s3_cli.py viswatestemr

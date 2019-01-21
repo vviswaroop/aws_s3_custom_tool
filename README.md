@@ -1,4 +1,5 @@
 # aws_s3_custom_tool
+
 aws s3 tool to get the list of buckets, details of the bucket such as number of objects, size, cost etc;
 
 The following code was dveloped & intended to perform operations on AWS S3 service.
@@ -37,6 +38,7 @@ Steps:
 	pass the credentials and config
 3.Below are the 3 ways to execute the script
 
+NOTE: ignore the results formatted in the below instructions
 	a. List buckets:
 		python aws_s3_cli.py
 			Viswaroops-MacBook-Pro:aws_s3_custom_tool vadlamudi$ python aws_s3_cli.py \n 
